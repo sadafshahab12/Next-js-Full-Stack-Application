@@ -1,10 +1,18 @@
-
+import Link from "next/link";
 import styles from "./authLinks.module.css";
 const AuthLinks = () => {
+  const status = "notAuthenticated"; // This should be replaced with actual authentication status
   return (
-    <div className={styles.container}>
-
-    </div>
+    <>
+      {status === "notAuthenticated" ? (
+        <Link href={"/login"}>Login</Link>
+      ) : (
+        <>
+          <Link href={"/write"}>Write</Link>
+          <span className={styles.link}>Logout</span>
+        </>
+      )}
+    </>
   );
 };
 
