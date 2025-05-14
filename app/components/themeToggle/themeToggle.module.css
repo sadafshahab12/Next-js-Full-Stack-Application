@@ -4,7 +4,6 @@
   border-radius: 50px;
   cursor: pointer;
   display: flex;
-  background-color: black;
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -13,7 +12,5 @@
   width: 17px;
   height: 17px;
   border-radius: 50%;
-  background-color: white;
   position: absolute;
-  left: 2px;
 }

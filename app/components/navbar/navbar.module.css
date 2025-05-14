@@ -8,7 +8,6 @@
   display: flex;
   gap: 10px;
   flex: 1;
-  background-color: rgb(254, 121, 143);
 }
 .logo {
   flex: 1;
@@ -18,8 +17,34 @@
 }
 .links {
   display: flex;
+  align-items: center;
   gap: 20px;
   flex: 1;
   font-size: 16px;
-  background-color: rgb(191, 142, 150);
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    font-size: 32px;
+  }
+  .links {
+    font-size: 14px;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    text-align: left;
+  }
+  .social {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .links{
+    justify-content: flex-end;
+  }
+  .link {
+    display: none;
+  }
 }
