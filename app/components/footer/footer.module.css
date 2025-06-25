@@ -15,11 +15,11 @@
 .logoText {
   font-size: 24px;
 }
-.desc{
+.desc {
   font-size: 14px;
   font-weight: 300;
 }
-.icons{
+.icons {
   margin-top: 10px;
   display: flex;
   gap: 10px;
@@ -30,17 +30,36 @@
   justify-content: flex-end;
   gap: 80px;
 }
-.list{
+.list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   font-weight: 300;
   font-size: 14px;
 }
-.listTitle{
+.listTitle {
   font-weight: bold;
 }
 
-@media screen and (max-width::after) {
-  
+@media screen and (max-width: 1024px) {
+  .link {
+    gap: 50px;
+  }
 }
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .link{
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width:475px) {
+  .link {
+    font-size: 14px;
+  }
+}
+
