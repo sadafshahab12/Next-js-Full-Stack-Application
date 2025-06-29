@@ -55,12 +55,36 @@
   flex: 5;
   margin-top: 60px;
 }
-.descriptionTitle{
-    font-size: 24px;
-    font-weight: bold;
+.descriptionTitle {
+  font-size: 24px;
+  font-weight: bold;
 }
 .description p {
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .title {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .imgContainer {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .title {
+    font-size: 30px;
+  }
+  .description p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .title {
+    font-size: 24px;
+  }
 }

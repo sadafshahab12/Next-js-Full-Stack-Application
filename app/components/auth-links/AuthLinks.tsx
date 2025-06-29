@@ -4,7 +4,7 @@ import styles from "./authLinks.module.css";
 import { useState } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 const AuthLinks = () => {
-  const status = "notAuthenticated"; // This should be replaced with actual authentication status
+  const status = "Authenticated"; // This should be replaced with actual authentication status
   const [open, setOpen] = useState(false);
   return (
     <>

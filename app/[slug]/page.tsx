@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./singlePage.module.css";
 import Menu from "../components/menu/Menu";
 import Image from "next/image";
+import Comments from "../components/comments/Comments";
 const SinglePage = () => {
   return (
     <div className={styles.container}>
@@ -28,22 +29,35 @@ const SinglePage = () => {
         <div className={styles.post}>
           <div className={styles.description}>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci a possimus quis exercitationem tenetur expedita quidem sed maiores autem, magnam rem corporis quisquam est at suscipit rerum error
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+              a possimus quis exercitationem tenetur expedita quidem sed maiores
+              autem, magnam rem corporis quisquam est at suscipit rerum error
               iusto alias aspernatur.
             </p>
-            <h2 className={styles.descriptionTitle}>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+            <h2 className={styles.descriptionTitle}>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci a possimus quis exercitationem tenetur expedita quidem sed maiores autem, magnam rem corporis quisquam est at suscipit rerum error
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+              a possimus quis exercitationem tenetur expedita quidem sed maiores
+              autem, magnam rem corporis quisquam est at suscipit rerum error
               iusto alias aspernatur.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci a possimus quis exercitationem tenetur expedita quidem sed maiores autem, magnam rem corporis quisquam est at suscipit rerum error
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+              a possimus quis exercitationem tenetur expedita quidem sed maiores
+              autem, magnam rem corporis quisquam est at suscipit rerum error
               iusto alias aspernatur.
             </p>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci a possimus quis exercitationem tenetur expedita quidem sed maiores autem, magnam rem corporis quisquam est at suscipit rerum error
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+              a possimus quis exercitationem tenetur expedita quidem sed maiores
+              autem, magnam rem corporis quisquam est at suscipit rerum error
               iusto alias aspernatur.
             </p>
+          </div>
+          <div className={styles.comment}>
+            <Comments />
           </div>
         </div>
         <Menu />
