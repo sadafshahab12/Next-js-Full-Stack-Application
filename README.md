@@ -40,3 +40,11 @@ Updating flags like mounted to track when you're ready to show something
 useEffect doesn’t mount the component.
 It runs after the component is mounted.
 It’s used to handle side effects that depend on the DOM, window, or localStorage.
+
+
+npm i react-quill
+import ReactQuill from "react-quill";
+import "react-quill/dist/quill.bubble.css";
+
+
+npx prisma init --datasource-provider mongodb
